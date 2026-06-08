@@ -1,0 +1,8 @@
+S="M"
+while(S not in "AEIOUaeiou"):
+    S=input("Enter the charcter:")
+    
+    if (S is up()):
+        up=up+1
+    else:
+        lc=ic+1

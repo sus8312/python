@@ -1,0 +1,11 @@
+a=450
+b=25
+while(True):
+    if b==0:
+        break
+    remainder=a%b
+    temp=b
+    b=remainder
+    a=temp
+print(a)
+    

@@ -1,0 +1,13 @@
+a=int(input("Enter number of teams:"))
+team=[]
+for i in range(a):
+    x=input("Enter team:")
+    team.append(x)
+matches=[]
+for i in range(a-1):
+    for j in range(i+1):
+        matches.append([team[i],team[j]])
+pos=1
+for i in matches:
+    print("match{}:{} vs {}".format(pos,i[0],i[1]))
+    pos=pos+1
